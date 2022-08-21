@@ -1,0 +1,18 @@
+.skills-section{
+    background-color: #1C1632;
+    color: #D9D9D9;
+}
+
+.skills-section>h2{
+    text-align: center;
+
+} 
+
+.skills{
+    display: flex;
+    justify-content: center;
+}
+
+.skills div{
+    border: 5px solid red;
+}

@@ -1,0 +1,46 @@
+.home--section{
+    background-color: #1C1632;
+}
+
+.home--section{
+    display: flex;
+    color: #AFB4B1;
+    height: 100vh;
+}
+
+.home-img{
+    width: 50%;
+    /* background-color: green; */
+}
+
+
+/* .home-img>img{
+    z-index: -1;
+} */
+
+.home-desc{
+    /* background-color: red; */
+    width: 50%;
+}
+
+.home-desc>h1{
+    margin-top: 8rem;
+    font-size: 4.375rem;
+    width: 40rem;
+    font-family: "Roboto";
+    /* border: 5px solid black; */
+}
+
+.home-desc>p{
+    font-size: 1.563rem;
+    font-family: "Rajdhani";
+}
+
+.home-desc>a{
+    font-size: 1.875rem;
+    font-family: "Roboto";
+}
+
+.home-desc p span {
+    font-size: 3.375rem;
+}
