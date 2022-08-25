@@ -6,12 +6,8 @@ export default function Services(){
         <>
             <section className="services-section">
                 <div className="introduce">
-                    <h2>Introduce</h2>
-                    <h3>Hello</h3>
-                    <h3>I'm Nkosinathi Ngele</h3>
-                    <h4>Software Designer and developer</h4>
-                    <p>Experienced Junior Software Developer with a demonstrated history of more than 3 years working in the information technology and services industry. Skilled in Designing, Coding  and Database.</p>
-                    <a href="#">Download CV</a>
+                    <h2>Services</h2>
+                    <h3>My previous work</h3>
                 </div>
                 <div className="services-cards">
                     <div>

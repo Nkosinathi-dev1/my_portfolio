@@ -1,4 +1,11 @@
 footer{
     background-color: #12151A;
     color: #AFB4B1;
+    padding: 40px;
+    padding: 2.5rem 6.188rem;
+} 
+
+footer div{
+    display: flex;
+    justify-content: center;
 }

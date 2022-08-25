@@ -10,6 +10,7 @@ export default function Nav(){
                     Nathi Ngele
                 </div>
                 <ul className="nav--links">
+                    <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact</a></li>

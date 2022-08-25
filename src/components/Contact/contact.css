@@ -1,4 +1,75 @@
-.contact-section{
+.contact--section{
     background-color: #1C1632;
     color: #AFB4B1;
+    display: flex;
+    padding: 2.5rem 6.188rem;
+    height: 50vh;
+}
+
+
+
+.contact--infor{
+    border-right: 4px solid #FFF;
+    width: 35%;
+} 
+
+.contact--infor h2{
+    font-family: "Roboto";
+    font-size: 1.875rem;
+    font-weight: lighter;
+}
+
+.contact--infor h3{
+    font-family: "Roboto";
+    font-size: 2.813rem;
+}
+
+.contact--infor h4{
+    font-family: "Roboto";
+    font-size: 1.125rem;
+}
+
+.contact--infor a{
+    font-family: "Roboto";
+    font-size: 1.563rem;
+}
+
+
+/* Form Style */
+form{
+    width: 500px;
+    margin: .0 auto;
+    margin: 10px 0px 0px 100px;
+}
+
+input{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 1px solid #FFF;
+    margin:5px 10px 50px 0px;
+}
+
+label{
+    line-height: 2;
+    text-align: left;
+    margin-right: 10px;
+    font-family: "Roboto";
+    font-size: 1.563rem;
+}
+
+.more--btn{
+    display: inline;
+    justify-content: right; 
+    padding: 15px 15px 0px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+input span{
+    display: flex;
+    flex-direction: column;
 }

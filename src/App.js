@@ -7,7 +7,8 @@ import Portfolio from "./components/Portfolio/Portfolio"
 import Contact from "./components/Contact/Contact"
 import Footer from "./components/Footer/Footer"
 import "../src/style/style.css"
-
+import About from "./components/About/About"
+import Testimonials from "./components/Testimonials/Testimonials"
 
 
 export default function App(){
@@ -15,11 +16,13 @@ export default function App(){
         <>
             <Nav />
             <Home />
+            <About />
             <Services />
             <Skills />
-            {/* <Portfolio />
+            <Portfolio />
+            <Testimonials />
             <Contact />
-            <Footer /> */}
+            <Footer />
         </>
     )
 }

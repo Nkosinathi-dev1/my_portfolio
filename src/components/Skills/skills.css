@@ -1,18 +1,28 @@
 .skills-section{
-    background-color: #1C1632;
+    background-color: #12151A;
     color: #D9D9D9;
+    padding: 2.5rem 6.188rem;
 }
 
 .skills-section>h2{
+    font-family: "Roboto";
+    font-size: 1.75rem;
     text-align: center;
-
+    /* height: 10vh; */ 
 } 
 
 .skills{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;    
+    margin: 50px;  
 }
 
 .skills div{
-    border: 5px solid red;
+    font-family: "Roboto";
+    font-size: 1.75rem;
+    padding: 50px;
+    border: 1px solid green;
 }
+
+

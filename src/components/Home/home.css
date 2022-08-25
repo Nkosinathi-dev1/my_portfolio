@@ -6,6 +6,8 @@
     display: flex;
     color: #AFB4B1;
     height: 100vh;
+    /* padding: 6.188rem; */
+    padding: 2.5rem 6.188rem 0 0;
 }
 
 .home-img{

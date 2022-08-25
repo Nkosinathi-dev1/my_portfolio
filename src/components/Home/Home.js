@@ -1,13 +1,13 @@
 import React from "react"
 import "./home.css"
-import profileimg from "../../images/nathiprofile.png"
+import homeImg from "../../images/homeImg.jpg"
 
 export default function Home(){
     return(
         <>
             <header className="home--section">
                 <div className="home-img">
-                    {/* <img src={profileimg} alt="Profile-img" /> */}
+                    <img width={"760px"} height={"720px"} src={homeImg} alt="Profile-img" />
                 </div>
                 <div className="home-desc">
                     <h1>Software Designer and Developer</h1>
