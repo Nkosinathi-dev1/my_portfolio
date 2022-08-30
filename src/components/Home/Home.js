@@ -10,13 +10,15 @@ export default function Home(){
                     <img width={"760px"} height={"720px"} src={homeImg} alt="Profile-img" />
                 </div>
                 <div className="home-desc">
-                    <h1>Software Designer and Developer</h1>
+                    <h1>Software Developer and Designer</h1>
                     <p>I design and develop fantastic things</p>
+                    <p>
+                        <span className="count--num">3+</span> <span className="count--desc">Years of <span>experience</span></span>
+                        <span className="count--num">10+</span> <span className="count--desc">Complete <span>projects</span></span>
+                    </p>
                     <a href="#">Let’s Chat</a>
-                    <p><span>3+</span> Years of experience</p>
-                    <p><span>10+</span> Complete projects</p>
                 </div>
-            </header>
+            </header> 
         </>
     )
 }

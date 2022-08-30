@@ -5,33 +5,48 @@
     height: 50vh;
 }
 
-.testimonials--cards{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 50px;    
-    padding: 50px;  
-}
+/* Slideshow */
 
-.testimonials--cards div{
-    font-family: "Roboto";
-    font-size: 1.75rem;
-    padding: 50px;
-    border: 1px solid green;
-}
-
-.testimonials--section h2{
-    font-family: "Roboto";
-    font-size: 1.875rem;
-    font-weight: lighter;
-}
-
-.testimonials--section h3{
-    font-family: "Roboto";
-    font-size: 2.813rem;
-    font-weight: normal;
-}
-
-.testimonials--section h4{
-    font-family: "Roboto";
-    font-size: 1.125rem;
-}
+.slideshow {
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 500px;
+  }
+  
+  .slideshowSlider {
+    white-space: nowrap;
+    transition: ease 1000ms;
+    gap: 50px;   
+  }
+  
+  .slide {
+    display: inline-block;
+  
+    height: 400px;
+    width: 100%;
+    border-radius: 40px;
+    border: 10px solid green;
+  }
+  
+  /* Buttons */
+  
+  .slideshowDots {
+    text-align: center;
+  }
+  
+  .slideshowDot {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+  
+    cursor: pointer;
+    margin: 15px 7px 0px;
+  
+    background-color: #c4c4c4;
+  }
+  
+  .slideshowDot.active {
+    background-color: #6a0dad;
+  }
+  

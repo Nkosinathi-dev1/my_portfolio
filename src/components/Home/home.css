@@ -6,13 +6,13 @@
     display: flex;
     color: #AFB4B1;
     height: 100vh;
-    /* padding: 6.188rem; */
-    padding: 2.5rem 6.188rem 0 0;
+    padding: 0 6.188rem 0 6.188rem;
 }
 
 .home-img{
     width: 50%;
-    /* background-color: green; */
+    height: auto;
+    margin-bottom: 70px;
 }
 
 
@@ -21,8 +21,23 @@
 } */
 
 .home-desc{
-    /* background-color: red; */
-    width: 50%;
+    width: 100%;
+    /* margin: 0px,0px,150px,0px; */
+    margin-bottom: 4.7rem;
+    background-image: linear-gradient(
+        #100853,
+        #100854,
+        #100852,
+        #11094F,
+        #10094E,
+        #120A4A,
+        #0E0653,
+        #09064A,
+        #07034C,
+        #08054B,
+        #07064A,
+        #07054A,
+        #07064A);
 }
 
 .home-desc>h1{
@@ -43,6 +58,12 @@
     font-family: "Roboto";
 }
 
-.home-desc p span {
+.count--num {
     font-size: 3.375rem;
 }
+
+/* .count--desc{
+    padding: 2px;
+    width: 200px;
+    border: solid red 5px;
+} */

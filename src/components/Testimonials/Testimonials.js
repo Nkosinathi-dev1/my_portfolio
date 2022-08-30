@@ -1,5 +1,8 @@
 import React from "react";
 import "./testimonials.css"
+import Slideshow from "../Testimonials/slideshow"
+
+
 
 export default function Testimonials(){
     return(
@@ -11,9 +14,11 @@ export default function Testimonials(){
                     <h4>What people say about me</h4>
                 </div>
                 <div className="testimonials--cards">
-                    <div>card 1</div>
-                    <div>card 2</div>
-                    <div>card 3</div>
+                 
+                 {/*  */}
+                 <Slideshow />
+                 {/*  */}
+                 
                 </div> 
             </section>
         </>
