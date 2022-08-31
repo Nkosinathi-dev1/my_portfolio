@@ -1,7 +1,54 @@
-import React from "react";
+import React,{useState} from "react";
 import "./contact.css";
+import { Radio } from 'antd';
+// import 'antd/dist/antd.css';
+
+
+
+const options = [
+    {
+      label: 'Apple',
+      value: 'Apple',
+    },
+    {
+      label: 'Pear',
+      value: 'Pear',
+    },
+    {
+      label: 'Orange',
+      value: 'Orange',
+    },
+  ];
 
 export default function Contact(){
+ 
+    const [value1, setValue1] = useState('Apple');
+    const [value2, setValue2] = useState('Apple');
+    const [value3, setValue3] = useState('Apple');
+    const [value4, setValue4] = useState('Apple');
+  
+    const onChange1 = ({ target: { value } }) => {
+      console.log('radio1 checked', value);
+      setValue1(value);
+    };
+  
+    const onChange2 = ({ target: { value } }) => {
+      console.log('radio2 checked', value);
+      setValue2(value);
+    };
+  
+    const onChange3 = ({ target: { value } }) => {
+      console.log('radio3 checked', value);
+      setValue3(value);
+    };
+  
+    const onChange4 = ({ target: { value } }) => {
+      console.log('radio4 checked', value);
+      setValue4(value);
+    };
+
+
+
     return(
         <>
             <div className="contact--section">
@@ -19,8 +66,13 @@ export default function Contact(){
                         <input type={"text"}/>
                         <label>Email</label>
                         <input type={"email"}/>
-                        <label>Tell me about the project</label>
-                        <div className="more--btn"></div>
+                        <label>Specify Topic</label>
+                        <div className="more--btn">
+
+                        </div>
+                        <br />
+      <Radio.Group options={options} onChange={onChange3} value={value3} optionType="button" buttonStyle="solid" />
+      <br />
                     </form>
                 </div>
             </div>
